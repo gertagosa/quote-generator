@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta name="viewport" content="width=>, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Quotes-Generator</title>
@@ -11,7 +12,7 @@
       <h1>AI Quotes-Generator</h1>
     </header>
     <main>
-      <form>
+      <form id="quote-generator-form">
         <input
           type="text"
           placeholder="Enter the topic of the quote"
@@ -21,11 +22,7 @@
         />
         <input type="submit" />
       </form>
-      <div>
-        True friends are never apart
-        <br />
-        Maybe in distance but never in heart
-      </div>
+      <div class="quote" id="quote"></div>
     </main>
     <footer>
       This AI project was coded by
