@@ -13,18 +13,21 @@
       <h1>AI Quotes-Generator</h1>
     </header>
     <main>
-      <form id="quote-generator-form">
-        <input
-          type="text"
-          placeholder="Enter the topic of the quote"
-          autofocus
-          required
-          autocomplete="off"
-          class="instructions"
-          id="user-instructions"
-        />
-        <input type="submit" />
-      </form>
+      <div class="form-container">
+        <form id="quote-generator-form">
+          <input
+            type="text"
+            placeholder="Enter the topic of the quote"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+            id="user-instructions"
+          />
+          <input type="submit" />
+          <div class="hint">i:e Friendship,Love,Peace</div>
+        </form>
+      </div>
       <div class="quote" id="quote"></div>
     </main>
     <footer>
