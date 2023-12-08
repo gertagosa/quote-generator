@@ -9,38 +9,40 @@
     <title>AI Quotes-Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Quotes-Generator</h1>
-    </header>
-    <main>
-      <div class="form-container">
-        <form id="quote-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the quote"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" />
+    <div class="container">
+      <header>
+        <h1>AI Quotes-Generator</h1>
+      </header>
+      <main>
+        <div class="form-container">
+          <form id="quote-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the quote"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
           <div class="hint">i:e Friendship,Love,Peace</div>
-        </form>
-      </div>
-      <div class="quote" id="quote"></div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/gertagosa" target="_blank"> Gerta Gosa </a>
-      and is
-      <a href="https://github.com/gertagosa/quote-generator" target="_blank">
-        open-sourced on GitHub</a
-      >
-      and is<a href="https://ai-quote-generator.netlify.app/" target="_blank">
-        hosted on Netlify</a
-      >
-    </footer>
+        </div>
+        <div class="quote hidden" id="quote"></div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/gertagosa" target="_blank"> Gerta Gosa </a>
+        and is
+        <a href="https://github.com/gertagosa/quote-generator" target="_blank">
+          open-sourced on GitHub</a
+        >
+        and is<a href="https://ai-quote-generator.netlify.app/" target="_blank">
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
